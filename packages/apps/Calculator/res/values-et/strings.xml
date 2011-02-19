@@ -42,7 +42,7 @@
     <!-- Button name on screen to delete the last entered digit or operator -->
     <string name="del">KUSTUTA</string>
     <!-- Button name on screen to clear the entire calculation field -->
-    <string name="clear">TÜHJENDA</string>
+    <string name="clear">NULLI</string>
     <!-- Do not translate. Unicode division sign; don't translate. Displayed as button on screen. -->
     <string name="div">\u00f7</string>
     <!-- Do not translate. Unicode multiplication sign; don't translate. Displayed as button on screen. -->
