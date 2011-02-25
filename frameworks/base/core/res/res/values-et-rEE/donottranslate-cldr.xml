@@ -61,13 +61,13 @@
     <string name="day_of_week_long_friday">Reede</string>
     <string name="day_of_week_long_saturday">Laupäev</string>
 
-    <string name="day_of_week_medium_sunday">Pühap</string>
-    <string name="day_of_week_medium_monday">Esmasp</string>
-    <string name="day_of_week_medium_tuesday">Teisip</string>
-    <string name="day_of_week_medium_wednesday">Kolmap</string>
-    <string name="day_of_week_medium_thursday">Neljap</string>
-    <string name="day_of_week_medium_friday">Reede</string>
-    <string name="day_of_week_medium_saturday">Laup</string>
+    <string name="day_of_week_medium_sunday">Püh</string>
+    <string name="day_of_week_medium_monday">Esm</string>
+    <string name="day_of_week_medium_tuesday">Tei</string>
+    <string name="day_of_week_medium_wednesday">Kol</string>
+    <string name="day_of_week_medium_thursday">Nel</string>
+    <string name="day_of_week_medium_friday">Ree</string>
+    <string name="day_of_week_medium_saturday">Lau</string>
 
     <string name="day_of_week_short_sunday">Pü</string>
     <string name="day_of_week_short_monday">Es</string>
@@ -78,7 +78,7 @@
     <string name="day_of_week_short_saturday">La</string>
 
     <string name="day_of_week_shortest_sunday">P</string>
-    <string name="day_of_week_shortest_monday">W</string>
+    <string name="day_of_week_shortest_monday">E</string>
     <string name="day_of_week_shortest_tuesday">T</string>
     <string name="day_of_week_shortest_wednesday">K</string>
     <string name="day_of_week_shortest_thursday">N</string>
