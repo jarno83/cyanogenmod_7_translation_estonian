@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- application name and title of error dialogs-->
+    <string name="app_name">Salvesta heli</string>
+
+    <!-- Screen title before and during recording -->
+    <string name="record_your_message">Salvestage oma heli</string>
+    <!-- Screen title after recording -->
+    <string name="message_recorded">Heli salvestatud</string>
+    <!-- Screen title while playing back a recording -->
+    <string name="review_message">Kuula heli</string>
+    <!-- Label shown during recording -->
+    <string name="recording">Salvesta</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">Lõpeta salvestamine</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">Mälu on täis</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">Maksimum pikkus täis</string>
+    <!-- label shown when there is no sd card available to record to [CHAR LIMIT=30] -->
+    <string name="insert_sd_card" product="nosdcard">Palun paigaldage USB</string>
+    <!-- label shown when there is no sd card available to record to -->
+    <string name="insert_sd_card" product="default">Palun paigaldage SD kaart</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <string name="min_available"><xliff:g id="minutes">%d</xliff:g> Miinimum võimalik</string>
+    <!-- label shown when there is less than 1 minute of space left to record -->
+    <string name="sec_available"><xliff:g id="seconds">%d</xliff:g>Sekund kättesaadav</string>
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <string name="accept">Salvesta</string>
+    <!-- button to discard the current recording and return to the caller -->
+    <string name="discard">Loobu</string>
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">OK</string>
+    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
+    <string name="timer_format" translatable="false"><xliff:g id="format">%02d:%02d</xliff:g></string>
+    <!-- label shown before the user has recorded anything -->
+    <string name="press_record">Vajuta salvesta</string>
+   
+    <!-- the name under which recordings will be visible in the media database is formatted like this --> 
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">Sinu salvestused</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Helisalvestused</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">Minu salvestused</string>
+   
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
+    <string name="error_sdcard_access" product="nosdcard">Ei saa kasutada USB</string>
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
+    <string name="error_sdcard_access" product="default">Ei saa kasutada SD kaarti</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">Rakenduse viga</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">Rakendus ei salvesta heli</string>
+</resources>
