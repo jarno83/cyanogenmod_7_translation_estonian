@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <string name="app_label">Äratuskell</string>
+
+    <!-- Title for AlarmClock activity -->
+    <string name="alarm_list_title">Äratused</string>
+
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">Lisa äratus</string>
+
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Lauakell</string>
+
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">Muuda äratusi</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Kustuta äratus</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">Aktiveeri äratus</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Peata äratus</string>
+
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">See äratus kustutatakse.</string>
+
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">Näita kella</string>
+
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">Peida kell</string>
+
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">Silt</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Äratus</string>
+
+    <!-- Setting label on Set alarm screen: Application to launch -->
+    <string name="application">Rakendus</string>
+
+    <!-- Title on the application picker -->
+    <string name="application_title">Rakendus käivitamiseks</string>
+
+    <!-- Option to not launch an application -->
+    <string name="application_none">Puudub</string>
+
+	<!-- Setting label on Set alarm screen: Show dialog -->
+	<string name="no_dialog">Peida dialoog</string>
+
+	<!-- Summary when dialog is hidden -->
+	<string name="no_dialog_on">Kordus/Sulge dialoog puudub</string>
+
+	<!-- Summary when dialog will be shown -->
+	<string name="no_dialog_off">Kordus/Sulge dialoogi näidatakse</string>
+
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <string name="set_alarm">Aktiveeri äratus</string>
+
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Värin</string>
+
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Kordus</string>
+
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Helin</string>
+
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">Aeg</string>
+
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">Sulge</string>
+
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_alert_alert_silenced">Äratus on vaigistatud peale <xliff:g id="minutes">%d</xliff:g> minutit.</string>
+
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">Kordus</string>
+
+    <!-- Button labels on the alarm dialog: Snooze & dismiss (when dual-mode button enabled) -->
+    <string name="alarm_alert_snooze_text_dual_mode">Kordus (hoia, et loobuda)</string>
+
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">Kordus uuesti <xliff:g id="minutes">%d</xliff:g> minuti pärast.</string>
+
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    --><skip />
+
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>Äratus käivitub vähem kui 1 minuti pärast.</item>
+        <item>Äratus on seatud <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> pärast.</item>
+        <item>Äratus on seatud <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> pärtast.</item>
+        <item>Äratus on seatud <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> ja <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> pärast.</item>
+        <item>Äratus on seatud <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> pärast.</item>
+        <item>Äratus on seatud <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> ja <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> pärast.</item>
+        <item>Äratus on seatud <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> ja <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> pärast.</item>
+        <item>Äratus on seatud <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, ja <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> pärast.</item>
+    </string-array>
+
+    <!-- Alarm confirmation toast: singular day -->
+    <string name="day">"1 päev"</string>
+
+    <!-- Alarm confirmation toast: plural days -->
+    <string name="days">"<xliff:g id="days">%s</xliff:g> päeva"</string>
+
+    <!-- Alarm confirmation toast: singular hour -->
+    <string name="hour">1 tund</string>
+
+    <!-- Alarm confirmation toast: plural hours -->
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> tundi</string>
+
+    <!-- Alarm confirmation toast: singular minute  -->
+    <string name="minute">"1 minut"</string>
+
+    <!-- Alarm confirmation toast: plural minutes  -->
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutit"</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <string name="every_day">igapäev</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->
+    <string name="never">mitte kunagi</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">", "</string>
+
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+    <string name="clock_instructions">Vali kell, mida näidakse.</string>
+
+    <!-- Label for analog clock gadget, shown in list of all gadgets -->
+    <string name="analog_gadget">Analoogkell</string>
+
+    <!-- Menu item title for general Alarm Clock Settings -->
+    <string name="settings">Seaded</string>
+
+    <!-- Setting title for whether the alarm should play in silent mode.
+         Usually, silent mode only affects the ringer, but this setting
+         will make the alarms respect silent mode too. -->
+    <string name="alarm_in_silent_mode_title">Äratus hääletus olekus</string>
+
+    <!-- Setting summary for whether the alarm should play in silent mode. -->
+    <string name="alarm_in_silent_mode_summary">Ärata ka kui telefon on hääletu</string>
+
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Kordus äratuse intervall</string>
+
+    <!-- Entries listed in the ListPreference when invoking the snooze duration
+         preference. -->
+    <string-array name="snooze_duration_entries">
+      <item>5 minutit</item>
+      <item>10 minutit</item>
+      <item>15 minutit</item>
+      <item>20 minutit</item>
+      <item>25 minutit</item>
+      <item>30 minutit</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above. -->
+    <string-array name="snooze_duration_values">
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Valmis</string>
+
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Taasta</string>
+
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Kustuta</string>
+
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Äratuse helitugevus</string>
+
+    <!-- Setting summary for changing the alarm volume. -->
+    <string name="alarm_volume_summary">Sea äratuse helitugevus</string>
+
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">Hääletu</string>
+
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Vali kas peatada äratus või korrata.</string>
+
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (kordus)</string>
+
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Sea äratus <xliff:g id="time">%s</xliff:g>. Vali, et loobuda.</string>
+
+    <!-- Title of the setting to change the volume/camera button behavior. -->
+    <string name="volume_button_setting_title">Helitugevus ja Kaamera</string>
+
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">Nupu mõju</string>
+
+    <!-- The summary of the side button setting. -->
+    <string name="volume_button_setting_summary">Sea, et mida teeb nupule vajutus</string>
+
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+      <item>Mitte midagi</item>
+      <item>Kordab</item>
+      <item>Lõpetab</item>
+    </string-array>
+
+    <!-- Values for the side-button setting. -->
+    <string-array name="volume_button_setting_values">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+    </string-array>
+
+    <!-- Accessibility labels for Clock activity buttons --><skip/>
+    <string name="alarm_button_description">Äratused</string>
+    <string name="gallery_button_description">Galerii</string>
+    <string name="music_button_description">Muusika</string>
+    <string name="nightmode_button_description">Pimendus</string>
+    <string name="home_button_description">Käivitaja</string>
+    <string name="desk_clock_button_description">Kell</string>
+
+    <!-- A short representation of charging information, e.g "34%" -->
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+    <string name="weather_fetch_failure">Ilmateade pole saadaval.</string>
+
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">Dokki seaded</string>
+
+    <!-- Setting title for setting alarm time limit -->
+    <string name="alarm_limit_title">Maksimaalne äratuse pikkus</string>
+
+    <string name="alarm_klaxon_service_desc">Heli teenus Lauakell reziimis</string>
+
+    <!-- Entries listed in the ListPreference when invoking the max alarm duration
+         preference. -->
+    <string-array name="alarm_limit_entries">
+      <item>5 minutit</item>
+      <item>15 minutit</item>
+      <item>30 minutit</item>
+      <item>60 minutit</item>
+      <item>90 minutit</item>
+      <item>120 minutit</item>
+      <item>Piiranguta</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the alarm_limit_entries above. -->
+    <string-array name="alarm_limit_values">
+      <item>5</item>
+      <item>15</item>
+      <item>30</item>
+      <item>60</item>
+      <item>90</item>
+      <item>120</item>
+      <item>-1</item>
+    </string-array>
+
+    <!-- Setting title for setting alarm time limit -->
+    <string name="screensaver_timeout_title">Eraanisäästja ooteaeg</string>
+
+    <!-- Entries listed in the ListPreference when invoking the max alarm duration
+         preference. -->
+    <string-array name="screensaver_timeout_entries">
+      <item>1 minutit</item>
+      <item>5 minutit</item>
+      <item>10 minutit</item>
+      <item>15 minutit</item>
+      <item>30 minutit</item>
+      <item>60 minutit</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the alarm_limit_entries above. -->
+    <string-array name="screensaver_timeout_values">
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>30</item>
+      <item>60</item>
+    </string-array>
+
+    <!-- Setting title for screensaver time color picker general title-->
+    <string name="color_picker">Kellaja värv</string>
+
+    <!-- Setting title for screensaver time color picker -->
+    <string name="color_picker_title">Kellaja värv (Ekraanisäästja)</string>
+
+    <!-- Setting title for screensaver time color picker -->
+    <string name="color_picker_summary">Muuda kellaja värv ekraanisäästja reziimis</string>
+
+    <!-- Sample time used in color picker -->
+    <string name="color_picker_sample">11:45</string>
+
+    <!-- Labels for colors in color picker -->
+    <string name="color_picker_alpha">Läbipaistev (Ainult tumendatud)</string>
+    <string name="color_picker_red">Punane</string>
+    <string name="color_picker_green">Roheline</string>
+    <string name="color_picker_blue">Sinine</string>
+
+    <!-- Settings strings for dual-mode button -->
+    <string name="use_dual_mode_button">Topelt reziimis kordus</string>
+    <string name="use_dual_mode_button_on">Vajuta ja hoia, et lõpetada äratus</string>
+    <string name="use_dual_mode_button_off">Eralda Kordus ja Lõpeta nupp</string>
+
+</resources>
