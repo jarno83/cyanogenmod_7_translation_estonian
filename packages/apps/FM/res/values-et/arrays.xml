@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string-array name="bt_exit_behaviour_entries">
+    <item>Ära tee midagi (Jääb tööle)</item>
+    <item>Taasta BT algne olek</item>
+    <item>Küsi kasutaja poolset tegevust</item>
+    <item>Alati keela</item>
+  </string-array>
+
+  <string-array name="bt_exit_behaviour_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+
+  <string-array name="ster_mon_entries">
+    <item>Stereo</item>
+    <item>Mono</item>
+  </string-array>
+
+  <string-array name="ster_mon_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <string-array name="record_durations_entries">
+    <item>5 minutit</item>
+    <item>15 minutit</item>
+    <item>30 minutit</item>
+    <item>Piiramatult</item>
+  </string-array>
+
+
+  <string-array name="record_duration_values" translatable="false">
+    <item>5</item>
+    <item>15</item>
+    <item>30</item>
+    <item>-1</item>
+  </string-array>
+
+  <string-array name="search_category_rbds_entries">
+    <item>Kõik jaamad</item>
+    <item>Täiskasvanutele</item>
+    <item>Klassika</item>
+    <item>Klassikaline Rock</item>
+    <item>Kolledž</item>
+    <item>Kantri</item>
+    <item>Hädaolukord</item>
+    <item>Hädaolukorra Test</item>
+    <item>Võõramaine keel</item>
+    <item>Informatsioon</item>
+    <item>Jazz</item>
+    <item>Uudised</item>
+    <item>Nostalgia</item>
+    <item>Vanad Hitid</item>
+    <item>Isiksus</item>
+    <item>Avalik</item>
+    <item>Religioosne Muusika</item>
+    <item>Religioosne Jutt</item>
+    <item>Rütm and Blues</item>
+    <item>Rock</item>
+    <item>Pehme Muusika</item>
+    <item>Pehme Rock</item>
+    <item>Pehme Rütm ja Blues</item>
+    <item>Sport</item>
+    <item>Jutt</item>
+    <item>Top 40</item>
+    <item>Ilm</item>
+  </string-array>
+
+  <string-array name="search_category_rbds_values" translatable="false">
+    <item>0</item>
+    <item>7</item>
+    <item>15</item>
+    <item>6</item>
+    <item>23</item>
+    <item>10</item>
+    <item>31</item>
+    <item>30</item>
+    <item>18</item>
+    <item>2</item>
+    <item>14</item>
+    <item>1</item>
+    <item>13</item>
+    <item>11</item>
+    <item>21</item>
+    <item>22</item>
+    <item>19</item>
+    <item>20</item>
+    <item>16</item>
+    <item>5</item>
+    <item>12</item>
+    <item>8</item>
+    <item>17</item>
+    <item>3</item>
+    <item>4</item>
+    <item>9</item>
+    <item>29</item>
+  </string-array>
+
+
+  <string-array name="search_category_rds_entries">
+    <item>Kõik jaamad</item>
+    <item>Kultuur</item>
+    <item>Aktuaalne</item>
+    <item>Laste Program</item>
+    <item>Kantri Muusika</item>
+    <item>Dokumentaal</item>
+    <item>Draama</item>
+    <item>Kerge Muusika</item>
+    <item>Haridus</item>
+    <item>Hädaolukord</item>
+    <item>Hädaolukorra Test</item>
+    <item>Majandus</item>
+    <item>Folk Muusika</item>
+    <item>Informatsioon</item>
+    <item>Jazz Muusika</item>
+    <item>Kerge Klassika</item>
+    <item>Vaba Aeg</item>
+    <item>Uudised</item>
+    <item>Rahvuslik Muusika</item>
+    <item>Muu Muusika</item>
+    <item>Vanem Muusika</item>
+    <item>Telefon</item>
+    <item>Pop Muusika</item>
+    <item>Religioon</item>
+    <item>Rock Muusika</item>
+    <item>Teadus</item>
+    <item>Tõsine Klassika</item>
+    <item>Avalikud Suhted</item>
+    <item>Sport</item>
+    <item>Reisimine</item>
+    <item>Mitmesugust</item>
+    <item>Ilm</item>
+  </string-array>
+
+  <string-array name="search_category_rds_values" translatable="false">
+    <item>0</item>
+    <item>7</item>
+    <item>2</item>
+    <item>18</item>
+    <item>25</item>
+    <item>29</item>
+    <item>6</item>
+    <item>12</item>
+    <item>5</item>
+    <item>31</item>
+    <item>30</item>
+    <item>17</item>
+    <item>28</item>
+    <item>3</item>
+    <item>24</item>
+    <item>13</item>
+    <item>23</item>
+    <item>1</item>
+    <item>26</item>
+    <item>15</item>
+    <item>27</item>
+    <item>21</item>
+    <item>10</item>
+    <item>20</item>
+    <item>11</item>
+    <item>8</item>
+    <item>14</item>
+    <item>19</item>
+    <item>4</item>
+    <item>22</item>
+    <item>9</item>
+    <item>16</item>
+  </string-array>
+
+  <string-array name="presetlist_edit_category">
+    <item>Nimeta ümber</item>
+    <item>Vali automaatselt</item>
+    <item>Kustuta</item>
+  </string-array>
+
+
+  <string-array name="regional_band_entries">
+    <item>Põhja Ameerika</item>
+    <item>Euroopa</item>
+    <item>Jaapan</item>
+    <item>Jaapan (Lai)</item>
+    <item>Austraalia</item>
+    <item>Austria</item>
+    <item>Belgia</item>
+    <item>Brasiilia</item>
+    <item>Hiina</item>
+    <item>Tsehhi</item>
+    <item>Taani</item>
+    <item>Soome</item>
+    <item>Prantsusmaa</item>
+    <item>Saksamaa</item>
+    <item>Kreeka</item>
+    <item>Hong Kong</item>
+    <item>India</item>
+    <item>Iirimaa</item>
+    <item>Itaalia</item>
+    <item>Korea</item>
+    <item>Mehhiko</item>
+    <item>Holland</item>
+    <item>Uus Meremaa</item>
+    <item>Norra</item>
+    <item>Poola</item>
+    <item>Portugal</item>
+    <item>Venemaa</item>
+    <item>Singapur</item>
+    <item>Slovakkia</item>
+    <item>Hispaania</item>
+    <item>Šveits</item>
+    <item>Rootsi</item>
+    <item>Taiwan</item>
+    <item>Türgi</item>
+    <item>Inglismaa </item>
+    <item>Ameerika</item>
+  </string-array>
+
+  <string-array name="regional_band_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+    <item>31</item>
+    <item>32</item>
+    <item>33</item>
+    <item>34</item>
+    <item>35</item>
+  </string-array>
+
+  <string-array name="regional_band_summary">
+    <item>Põhja Ameerika (87.5MHz kuni 108.0MHz 200 Khz Sammudega)</item>
+    <item>Euroopa (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Jaapan (76.0MHz kuni  90.0MHz 100 Khz Sammudega)</item>
+    <item>Jaapan (Lai) (90.0MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Austraalia (87.7MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Austria (87.5MHz kuni 108.0MHz 50 Khz Sammudega)</item>
+    <item>Belgia (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Brasiilia (87.8MHz kuni 108.0MHz 200 Khz Sammudega)</item>
+    <item>Hiina (87.0MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Tšehhi (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Taani (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Soome (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Prantsusmaa (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Saksamaa (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Kreeka (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Hong Kong (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>India (91.0MHz kuni 106.4MHz 100 Khz Sammudega)</item>
+    <item>Iirimaa (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Itaalia (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Korea (87.5MHz kuni 108.0MHz 200 Khz Sammudega)</item>
+    <item>Mehhiko (88.1MHz kuni 107.9MHz 200 Khz Sammudega)</item>
+    <item>Holland (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Uus Meremaa (88.0MHz kuni 107.0MHz 100 Khz Sammudega)</item>
+    <item>Norra (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Poola (88.0MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Portugal (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Venemaa (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Singapur (88.0MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Slovakkia (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Hispaania (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Šveits (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Rootsi (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Taiwan (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Türgi (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Inglismaa (87.5MHz kuni 108.0MHz 100 Khz Sammudega)</item>
+    <item>Ameerika (88.1MHz kuni 107.9MHz In 200 Khz Sammudega)</item>
+  </string-array>
+
+</resources>
