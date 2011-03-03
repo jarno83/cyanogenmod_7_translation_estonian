@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taskulamp</string>
+    <string name="about">Info: </string>
+    <string name="about_btn">Info taskulambi kohta </string>
+    <string name="about_title">Info</string>
+    <string name="about_close">Välju</string>
+
+    <string name="description">See programm kasutab LED´i</string>
+    <string name="warning">Hoiatus:Kui jätate LED´i kauaks tööle võib see üle kuumeneda.On testitud 1/2h  kuid on risk,et see kahjustab ka LED´i </string>
+    <string name="license">Original code from Nexus One Torch by Ben Buxton, released under the GPL, v3.\nhttp://n1torch.googlecode.com/\n\nThanks to David Prieto for new UI design.\n\nModified for CyanogenMod by Steve Kondik.\n\n</string>
+    <string name="warning_label">Hoiatus</string>
+    <string name="brightwarn">Full brightness has been tested successfully for 1/2 hour of operation, but got quite hot, and started flickering (temporarily) at 45 mins. Long term effects are unknown.\n\nThis is not supported on the widget yet.\n\nClick \'Accept\' if you want to use it at your own risk.</string>
+    <string name="brightwarn_title">Hi-brite \'On\' button!!!</string>
+    <string name="brightwarn_negative">Ei aitäh</string>
+    <string name="brightwarn_accept">Nõustun</string>
+
+    <string name="label_on">Sees</string>
+    <string name="label_off">Väljas</string>
+    <string name="label_high">Maksimaalne valgustus</string>
+    <string name="label_strobe">Vilkuv valgus</string>
+    <string name="label_frequency">Sagedus: (muuda)</string>
+
+    <string name="widget_options">Põhivalikud</string>
+    <string name="setting_widget_bright">Valgus seaded</string>
+    <string name="setting_widget_strobe">Vilkuv välklamp</string>
+    <string name="setting_frequency_title">Vilkumise sgedus</string>
+    <string name="setting_frequency_summary">Vilkuva valguse sagedus</string>
+    <string name="setting_frequency_dialog">Sagedus</string>
+    <string name="setting_frequency_hz"> Hz</string>
+    <string name="setting_add_widget">Lisa vidinaid</string>
+
+    <string name="not_torch_title">Taskulamp on sees</string>
+    <string name="not_torch_summary">Taskulamp praegu</string>
+
+    <string name="widget_label">Taskulamp</string>
+</resources>
