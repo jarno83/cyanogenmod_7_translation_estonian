@@ -21,10 +21,10 @@
     <!-- General -->
     <skip />
     <!-- Application name -->
-    <string name="wallpapers">Magic Smoke Taustad</string>
+    <string name="wallpapers">Maagiline Suits Taust</string>
 
     <!-- Wallpapers showing smoke, clouds, water, plasmas -->
-    <string name="wallpaper_magicsmoke">Magic Smoke</string>
+    <string name="wallpaper_magicsmoke">Maagiline Suits</string>
 
     <string name="author">Google</string>
     <string name="magicsmoke_desc">Tekitab suitsu, pilvede, vee ja plasma tausta.</string>
