@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="wallpapers">Androidi Elavad Taustad</string>
+
+    <!-- Wallpapers: -->
+    <skip />    
+
+    <!-- Wallpaper showing the camera preview -->
+    <string name="wallpaper_walkaround">Näe läbi</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">
+        Vaata läbi oma telefoni, ilma et õnnetustesse satuksid.
+    </string>
+
+    <!-- Wallpaper showing grass and the sky -->
+    <string name="wallpaper_grass">Muru</string>
+    <string name="wallpaper_grass_author">Google</string>
+    <string name="wallpaper_grass_desc">
+        Liikuv murum kus saad valida kas taustaks on öö või päev.
+    </string>
+    
+    <!-- Wallpaper showing a galaxy -->
+    <string name="wallpaper_galaxy">Galaktika</string>
+    <string name="wallpaper_galaxy_author">Google</string>
+    <string name="wallpaper_galaxy_desc">
+        Galaktika kus käivad tähed ringi.
+    </string>
+
+    <!-- Wallpaper showing leaves floating on water -->
+    <string name="wallpaper_fall">Vesi</string>
+    <string name="wallpaper_fall_author">Google</string>
+    <string name="wallpaper_fall_desc">
+        Sügislehtede liikumine&lt;br&gt;
+        Lainetus allapoole:&lt;br&gt;
+        Vedelik taust Zen
+    </string>
+    
+    <!-- Wallpaper showing a clock -->
+    <string name="wallpaper_clock">Polaarkell</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">
+        Näitab kuupäeva ja aega kui vastupäeva kaares: kuu, 
+		päev, tund, minut ja sekund.
+    </string>
+    
+	<!-- Wallpaper showing nexus -->
+    <string name="wallpaper_nexus">Nexus</string>
+    <string name="wallpaper_nexus_author">Google</string>
+    <string name="wallpaper_nexus_desc">
+        Närvivõrku piilumine.
+    </string>
+
+        <!-- Wallpaper showing nexus -->
+    <string name="wallpaper_darknexus">DarkNexus</string>
+    <string name="wallpaper_darknexus_author">Chris Soyars</string>
+    <string name="wallpaper_darknexus_desc">
+        Tumedasse närvivõrku piilumine.
+    </string>
+
+        <!-- Wallpaper showing nexus -->
+    <string name="wallpaper_sexynexus">SeksikasNexus</string>
+    <string name="wallpaper_sexynexus_author">Chris Soyars</string>
+    <string name="wallpaper_sexynexus_desc">
+        Närvivõrku piilumine (Tüdrukutele).
+    </string>
+    
+    <string name="nexus_settings">Nexus taustapildi seaded</string>
+    <string name="nexus_colorscheme">Värvivalik</string>
+    <string name="nexus_background">Taust</string>    
+
+    <!-- Polar clock: title of settings activity -->
+    <string name="clock_settings">Polaarkella seaded</string>
+    <!-- Polar clock: label for "show seconds" pref -->
+    <string name="show_seconds">Näita sekundeid</string>
+    <!-- Polar clock: label for "variable widths" pref -->
+    <string name="variable_line_width">Muutuvad rõnga laiused</string>
+    <!-- Polar clock: label for "palette" pref -->
+    <string name="palette">Värviline Ballett</string>
+
+	<!-- Polar clock: palette name -->
+	<string name="palette_gray">Raud</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_violet">Kesköö</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_matrix">Roheline Ekraan</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_white_c">Polar Bear (Dünaamiline)</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_black_c">Must Auk (Dünaamiline)</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_halloween">Pumpkin Pie</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_zenburn">Tulnuka Puuviljasalat</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_oceanic">Sinine Laser</string>
+
+</resources>
