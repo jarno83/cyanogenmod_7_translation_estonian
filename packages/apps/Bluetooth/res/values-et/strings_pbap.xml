@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pbap_acceptance_dialog_title">%1$s tahab saada ligipääsu sinu kontaktidele ja helistamise ajaloole. Anna ligipääs %2$s?</string>
+    <string name="pbap_acceptance_dialog_header">Telefoniraamatu Ligipääs</string>
+    <string name="pbap_session_key_dialog_title">Trüki seansi võti %1$s</string>
+    <string name="pbap_session_key_dialog_header">Sinihamba seansi võti vajalik</string>
+    <string name="pbap_acceptance_timeout_message">%1$s ühendamisega aeg sai läbi</string>
+    <string name="pbap_authentication_timeout_message">%1$s sessiooni võtme sisestamise aeg sai läbi</string>
+    <string name="pbap_notif_ticker">Telefoniraamatule ligipääsu palve</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="pbap_notif_title">PBAP palve</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="pbap_notif_message">Luba telefoniraamatule ligipääs %1$s</string>
+    <string name="auth_notif_ticker">Obex tuvastamise palve</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="auth_notif_title">Sessiooni Võti</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="auth_notif_message">Trüki sessiooni võti %1$s</string>
+    <string name="alwaysallowed">Alati lubatud?</string>
+    <string name="defaultname">Autovarustus</string>
+    <string name="unknownName">Tundmatu nimi</string>
+    <string name="localPhoneName">Minu nimi</string>
+    <string name="defaultnumber">000000</string>
+</resources>
